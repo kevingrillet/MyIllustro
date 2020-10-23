@@ -11,6 +11,7 @@ hSeparator=1
 sPicture=13
 xBar=27
 xImage=10
+xText=15
 xLabel=25
 xProcess=200
 yOffsetBar=14

@@ -6,7 +6,7 @@
 ;___TO USE
 ; yCPU=(#yOffsetLine#*2)
 
-;___CPU___	
+;___CPU___
 	[meterSystemImageCPU]
 	Meter=Image
 	ImageName=#@#Includes\System\Images\CPU.png
