@@ -1,0 +1,92 @@
+[Variables]
+fontName=Roboto-Regular
+textSize=8
+colorBar=235,170,0,255
+colorText=255,255,255,205
+colorOn=255,000,000,205
+colorOff=000,255,000,205
+hBar=1
+hText=14
+hSeparator=1
+sPicture=13
+xBar=27
+xImage=10
+xLabel=25
+xProcess=200
+yOffsetBar=14
+yOffsetLine=20
+yOffsetSeparator=15
+wBar=180
+wLabel=150
+wProcess=190
+
+;___STYLE___
+	[styleTitle]
+	StringAlign=Center
+	StringCase=Upper
+	StringStyle=Bold
+	StringEffect=Shadow
+	FontEffectColor=0,0,0,50
+	FontColor=#colorText#
+	FontFace=#fontName#
+	FontSize=10
+	AntiAlias=1
+	ClipString=1
+
+	[styleLeftText]
+	StringAlign=Left
+	StringCase=None
+	StringStyle=Bold
+	StringEffect=Shadow
+	FontEffectColor=0,0,0,20
+	FontColor=#colorText#
+	FontFace=#fontName#
+	FontSize=#textSize#
+	AntiAlias=1
+	ClipString=1
+
+	[styleRightText]
+	StringAlign=Right
+	StringCase=None
+	StringStyle=Bold
+	StringEffect=Shadow
+	FontEffectColor=0,0,0,20
+	FontColor=#colorText#
+	FontFace=#fontName#
+	FontSize=#textSize#
+	AntiAlias=1
+	ClipString=1
+
+	[styleRightTextON]
+	StringAlign=Right
+	StringCase=None
+	StringStyle=Bold
+	StringEffect=Shadow
+	FontEffectColor=0,0,0,20
+	FontColor=#colorOn#
+	FontFace=#fontName#
+	FontSize=#textSize#
+	AntiAlias=1
+	ClipString=1
+	Text="ON"
+
+	[styleRightTextOFF]
+	StringAlign=Right
+	StringCase=None
+	StringStyle=Bold
+	StringEffect=Shadow
+	FontEffectColor=0,0,0,20
+	FontColor=#colorOff#
+	FontFace=#fontName#
+	FontSize=#textSize#
+	AntiAlias=1
+	ClipString=1
+	Text="OFF"
+
+	[styleBar]
+	BarColor=#colorBar#
+	BarOrientation=HORIZONTAL
+	SolidColor=255,255,255,15
+
+	[styleSeperator]
+	SolidColor=255,255,255,15
