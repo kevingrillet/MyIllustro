@@ -1,27 +1,27 @@
-;@includeModuleTop4=#@#Includes\System\Modules\Top4.inc
+;@includeModuleCPUTop3=#@#Includes\System\Modules\CPU.Top3.inc
 
 ;___Top5___
-    [TopName4]
+    [TopName3]
     Measure=Plugin
-    Plugin=Plugins\NomFerp.dll
+    Plugin=NomFerp.dll
     ParentName=TopCPU
     Counter=name
-    Instance=4
+    Instance=3
     RegExpSubstitute=1
     Substitute="(?siU)(.*)#.*$":"\1"
 
-    [TopCPU4]
+    [TopCPU3]
     Measure=Plugin
-    Plugin=Plugins\NomFerp.dll
+    Plugin=NomFerp.dll
     ParentName=TopCPU
     Counter=% Processor Time
     Mode=DifferenceTotalPercent
-    Instance=4
+    Instance=3
 
-    [TopMem4]
+    [TopMem3]
     Measure=Plugin
-    Plugin=Plugins\NomFerp.dll
+    Plugin=NomFerp.dll
     ParentName=TopCPU
     Counter=Working Set - Private
     Mode=Normal
-    Instance=4
+    Instance=3

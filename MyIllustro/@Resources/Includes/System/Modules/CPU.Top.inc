@@ -1,4 +1,4 @@
-;@includeModuleTop=#@#Includes\System\Modules\Top.inc
+;@includeModuleCPUTop=#@#Includes\System\Modules\CPU.Top.inc
 
 ;___TOP___
     [Variables]
@@ -6,7 +6,7 @@
 
     [TopCPU]
     Measure=Plugin
-    Plugin=Plugins\NomFerp.dll
+    Plugin=NomFerp.dll
     Order=% Processor Time
     Mode=Difference
     Filter=#Filter#

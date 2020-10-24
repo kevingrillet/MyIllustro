@@ -1,9 +1,9 @@
-;@includeModuleTop5=#@#Includes\System\Modules\Top5.inc
+;@includeModuleCPUTop5=#@#Includes\System\Modules\CPU.Top5.inc
 
 ;___Top5___
     [TopName5]
     Measure=Plugin
-    Plugin=Plugins\NomFerp.dll
+    Plugin=NomFerp.dll
     ParentName=TopCPU
     Counter=name
     Instance=5
@@ -12,7 +12,7 @@
 
     [TopCPU5]
     Measure=Plugin
-    Plugin=Plugins\NomFerp.dll
+    Plugin=NomFerp.dll
     ParentName=TopCPU
     Counter=% Processor Time
     Mode=DifferenceTotalPercent
@@ -20,7 +20,7 @@
 
     [TopMem5]
     Measure=Plugin
-    Plugin=Plugins\NomFerp.dll
+    Plugin=NomFerp.dll
     ParentName=TopCPU
     Counter=Working Set - Private
     Mode=Normal

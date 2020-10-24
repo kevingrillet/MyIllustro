@@ -1,37 +1,34 @@
-;@includeLayoutsTop1=#@#Includes\System\Layouts\Top1.inc
+;@includeLayoutsCPUTop2=#@#Includes\System\Layouts\CPU.Top2.inc
 
 [IncludesModules]
-@includeModuleTop1=#@#Includes\System\Modules\Top1.inc
+@includeModuleCPUTop2=#@#Includes\System\Modules\CPU.Top2.inc
 
-;___Top1___
-    [MeterTopName1]
+;___Top2___
+    [MeterCPUTopName2]
     Meter=String
     MeterStyle=styleLeftText
-	FontColor=#colorOn#
     StringCase=Proper
-    MeasureName=TopName1
+    MeasureName=TopName2
     X=#xText#
-    Y=#yTop1#
+    Y=#yCPUTop2#
 
-    [MeterTopCPU1]
+    [MeterCPUTopCPU2]
     Meter=String
-    MeasureName=TopCPU1
+    MeasureName=TopCPU2
     MeterStyle=styleRightText
-	FontColor=#colorOn#
     StringCase=Proper
     X=(#xText#+150)
-    Y=#yTop1#
+    Y=#yCPUTop2#
     NumOfDecimals=2
     Text=%1%
 
-    [MeterTopMem1]
+    [MeterCPUTopMem2]
     Meter=String
-    MeasureName=TopMem1
+    MeasureName=TopMem2
     MeterStyle=styleRightText
-	FontColor=#colorOn#
     StringCase=Proper
     X=(#xText#+200)
-    Y=#yTop1#
+    Y=#yCPUTop2#
     NumOfDecimals=1
     AutoScale=1
     Text=%1B

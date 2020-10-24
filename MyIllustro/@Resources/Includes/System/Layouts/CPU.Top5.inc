@@ -1,34 +1,34 @@
-;@includeLayoutsTop4=#@#Includes\System\Layouts\Top4.inc
+;@includeLayoutsCPUTop5=#@#Includes\System\Layouts\CPU.Top5.inc
 
 [IncludesModules]
-@includeModuleTop4=#@#Includes\System\Modules\Top4.inc
+@includeModuleCPUTop5=#@#Includes\System\Modules\CPU.Top5.inc
 
-;___Top4___
-    [MeterTopName4]
+;___Top5___
+    [MeterCPUTopName5]
     Meter=String
     MeterStyle=styleLeftText
     StringCase=Proper
-    MeasureName=TopName4
+    MeasureName=TopName5
     X=#xText#
-    Y=#yTop4#
+    Y=#yCPUTop5#
 
-    [MeterTopCPU4]
+    [MeterCPUTopCPU5]
     Meter=String
-    MeasureName=TopCPU4
+    MeasureName=TopCPU5
     MeterStyle=styleRightText
     StringCase=Proper
     X=(#xText#+150)
-    Y=#yTop4#
+    Y=#yCPUTop5#
     NumOfDecimals=2
     Text=%1%
 
-    [MeterTopMem4]
+    [MeterCPUTopMem5]
     Meter=String
-    MeasureName=TopMem4
+    MeasureName=TopMem5
     MeterStyle=styleRightText
     StringCase=Proper
     X=(#xText#+200)
-    Y=#yTop4#
+    Y=#yCPUTop5#
     NumOfDecimals=1
     AutoScale=1
     Text=%1B
