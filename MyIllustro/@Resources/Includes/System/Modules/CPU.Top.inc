@@ -6,7 +6,7 @@
 
     [TopCPU]
     Measure=Plugin
-    Plugin=NomFerp.dll
+    Plugin=Plugins\NomFerp.dll
     Order=% Processor Time
     Mode=Difference
     Filter=#Filter#

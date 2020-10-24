@@ -6,7 +6,7 @@
 
     [TopRAM]
     Measure=Plugin
-    Plugin=NomFerp.dll
+    Plugin=Plugins\NomFerp.dll
     Order=% Memory Time
     Mode=Difference
     Filter=#Filter#

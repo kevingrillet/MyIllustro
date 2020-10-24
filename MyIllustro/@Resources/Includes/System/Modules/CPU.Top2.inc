@@ -3,7 +3,7 @@
 ;___Top5___
     [TopName2]
     Measure=Plugin
-    Plugin=NomFerp.dll
+    Plugin=Plugins\NomFerp.dll
     ParentName=TopCPU
     Counter=name
     Instance=2
@@ -12,7 +12,7 @@
 
     [TopCPU2]
     Measure=Plugin
-    Plugin=NomFerp.dll
+    Plugin=Plugins\NomFerp.dll
     ParentName=TopCPU
     Counter=% Processor Time
     Mode=DifferenceTotalPercent
@@ -20,7 +20,7 @@
 
     [TopMem2]
     Measure=Plugin
-    Plugin=NomFerp.dll
+    Plugin=Plugins\NomFerp.dll
     ParentName=TopCPU
     Counter=Working Set - Private
     Mode=Normal
